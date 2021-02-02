@@ -5,7 +5,7 @@ House purchasing/selling is a very important project in everyone’s life. A dea
 This project might be useful for house rental/sale companies because it can help both house sellers and buyers:
 * The project is not only providing an accurate house price predictor but also analyze the latent impact factor of the price.
 * For sellers, the analysis can give advices on how to improve the house quality and sale prices.
-* For buyers, the project can give advice and point on what is missing in consideration of buying houses.
+* The outcome of the project can give advice and point out what is missing in consideration of buying houses.
 
 ### Method
 First, all of features in the dataset are normaized to zero mean and unit variacne. Second, a lasso-regularized linear regression is fitted with the normalized feature and the hourse prices. Mean squared error (MSE) is used as the metric and 5-fold cross-validation is employed to deterenming the regurlarization parameter. After obtaining the best peformaed regularization parameter, I train all the data in the single model with the optimal parameter. 
